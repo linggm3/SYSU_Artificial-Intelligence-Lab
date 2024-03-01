@@ -1,0 +1,24 @@
+Input:
+5
+On(aa,bb)
+On(bb,cc)
+Green(aa)
+¬Green(cc)
+(¬On(x,y), ¬Green(x), Green(y))
+
+Output:
+1: (On(aa,bb))
+2: (On(bb,cc))
+3: (Green(aa))
+4: (¬Green(cc))
+5: (¬On(x,y),¬Green(x),Green(y))
+6: R[1, 5a](x=aa, y=bb) = (¬Green(aa),Green(bb))
+7: R[2, 5a](x=bb, y=cc) = (¬Green(bb),Green(cc))
+8: R[3, 5b](x=aa) = (¬On(aa,y),Green(y))
+9: R[3, 6a]() = (Green(bb))
+10: R[4, 5c](y=cc) = (¬On(x,cc),¬Green(x))
+11: R[4, 7b]() = (¬Green(bb))
+12: R[9, 11]() = []
+成功归结出NIT!
+
+进程已结束,退出代码0

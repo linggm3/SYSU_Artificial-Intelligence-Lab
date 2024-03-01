@@ -1,0 +1,18 @@
+Input:
+4
+GradStudent(sue)
+(¬GradStudent(x), Student(x))
+(¬Student(x), HardWorker(x))
+¬HardWorker(sue)
+
+Output:
+1: (GradStudent(sue))
+2: (¬GradStudent(x),Student(x))
+3: (¬Student(x),HardWorker(x))
+4: (¬HardWorker(sue))
+5: R[1, 2a](x=sue) = (Student(sue))
+6: R[4, 3b](x=sue) = (¬Student(sue))
+7: R[5, 6]() = []
+成功归结出NIT!
+
+进程已结束,退出代码0

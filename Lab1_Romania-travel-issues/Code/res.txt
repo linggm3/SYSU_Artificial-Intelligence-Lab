@@ -1,0 +1,16 @@
+start: arad  end: bucharest
+Shortest path: Pitesti<--Rimnicuvilcea<--Sibiu<--Arad
+Length of the shorest path:418
+
+start: fagaras  end: dobreta
+Shortest path: Craiova<--Rimnicuvilcea<--Sibiu<--Fagaras
+Length of the shorest path:445
+
+start: mehadia  end: sibiu
+Shortest path: Rimnicuvilcea<--Craiova<--Dobreta<--Mehadia
+Length of the shorest path:421
+
+start: urziceni  end: arad
+Shortest path: Sibiu<--Rimnicuvilcea<--Pitesti<--Bucharest<--Urziceni
+Length of the shorest path:503
+

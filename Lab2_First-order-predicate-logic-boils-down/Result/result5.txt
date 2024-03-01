@@ -1,0 +1,17 @@
+Input:
+4
+(A(linux), ¬B(windows, x), C(ios))
+(¬B(windows, x), ¬A(linux), ¬C(ios))
+(B(macos, x), B(windows, x))
+(¬B(windows, x), B(macos, x))
+
+Output:
+1: (A(linux),¬B(windows,x),C(ios))
+2: (¬B(windows,x),¬A(linux),¬C(ios))
+3: (B(macos,x),B(windows,x))
+4: (¬B(windows,x),B(macos,x))
+5: R[1, 2] = (¬B(windows,x))
+6: R[3, 4] = (B(macos,x))
+无新子句产生!
+
+进程已结束,退出代码0

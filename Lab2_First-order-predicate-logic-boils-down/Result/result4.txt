@@ -1,0 +1,18 @@
+Input:
+4
+(A(linux), ¬B(windows, x), C(ios))
+(¬B(windows, x), ¬A(linux), ¬C(ios))
+(¬B(macos, x), B(windows, x))
+(B(windows, x), B(macos, x))
+
+Output:
+1: (A(linux),¬B(windows,x),C(ios))
+2: (¬B(windows,x),¬A(linux),¬C(ios))
+3: (¬B(macos,x),B(windows,x))
+4: (B(windows,x),B(macos,x))
+5: R[1, 2] = (¬B(windows,x))
+6: R[3, 4] = (B(windows,x))
+7: R[5, 6]() = []
+成功归结出NIT!
+
+进程已结束,退出代码0
